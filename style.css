@@ -2,23 +2,23 @@
     background-color: black;
     width: 100%;
     height: 50px;
-    display: flex; /* Enables flexbox layout */
-    justify-content: flex-end; /* Aligns items to the right */
+    display: flex; 
+    justify-content: flex-end; 
     align-items: center;
     margin: 0px;
     
 }
 
 .nav1 .logo {
-  display: flex; /* Enables logo text and image to align together */
-  align-items: center; /* Aligns logo image and text vertically */
-  margin-right: auto; /* Pushes the logo to the left side */
+  display: flex; 
+  align-items: center; 
+  margin-right: auto; 
 }
 
 .nav1 .logo-image {
-  width: 40px; /* Set the logo image size */
+  width: 40px; 
   height: 40px;
-  margin-right: 10px; /* Adds spacing between the image and text */
+  margin-right: 10px; 
 }
 
 .nav1 .logo-text {
@@ -46,8 +46,8 @@
 .container1{
     background-image: url('4.jpg');
     background-size: cover;
-    background-repeat: no-repeat; /* Prevent repeating the image */
-    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-position: center; 
     height: 600px;
     width: 100%;
     position: relative
@@ -60,23 +60,23 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3); /* Black overlay with 50% opacity */
-    z-index: 0; /* Ensures the overlay stays behind the content */
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 0; 
 }
 
 .caption {
-    position: absolute; /* Position relative to .container1 */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%);  /*Adjust to center accurately */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
    
     text-align: center;
-    z-index: 1; /* Ensures the caption stays on top of the overlay */
+    z-index: 1; 
     font-family: 'Arial', sans-serif;
-   /* background-color: rgba(0, 0, 0, 0.6);  Semi-transparent background for better readability */
-    padding: 20px 40px; /* Add padding around the text */
-   /*  border-radius: 10px; Rounded corners */
-   /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);  Subtle shadow */
+   /* background-color: rgba(0, 0, 0, 0.6);   */
+    padding: 20px 40px; 
+   
+   
 }
 
 @keyframes fadeInSlide {
@@ -176,46 +176,46 @@
     color: #555;
 }
 
-/* Set a specific height for the carousel */
+
 #carouselExampleAutoplaying {
-    height: 600px; /* Adjust this value to your preference */
-    overflow: hidden; /* Hide anything outside the container */
-    width: calc(100% - 200px); /* Adjust width to account for 100px padding on each side */
-    padding-left: 100px; /* Space on the left */
-    padding-right: 100px; /* Space on the right */
-    box-sizing: border-box; /* Include padding in total width calculation */
-    margin: 0 auto; /* Center the carousel */
+    height: 600px; 
+    overflow: hidden; 
+    width: calc(100% - 200px); 
+    padding-left: 100px; 
+    padding-right: 100px; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
 }
 
-/* Ensure carousel inner takes up all the space */
+
 #carouselExampleAutoplaying .carousel-inner {
     height: 100%;
     width: 100%;
-    display: flex; /* Allow inner items to be flexible */
+    display: flex; 
 }
 
-/* Ensure the carousel items fill the space without distortion */
+
 #carouselExampleAutoplaying .carousel-item {
-    height: 100%; /* Ensures items take the full height */
-    width: 100%;  /* Ensures items take the full width */
+    height: 100%; 
+    width: 100%;  
 }
 
-/* Ensure images inside the carousel fill the container */
+
 #carouselExampleAutoplaying .carousel-item img {
-    width: 80%;  /* Scale images to fit the width of the container */
-    height: 100%; /* Ensure the image fills the container vertically */
-    object-fit: cover; /* Ensure the image covers the container without distortion */
-    object-position: center; /* Center the image within the container */
-    display: block; /* Remove any space below the image */
-    margin: 0 auto; /* Center the image horizontally */
+    width: 80%;  
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+    margin: 0 auto; 
 }
 
-/* Ensure carousel controls appear above the carousel images */
+
 .carousel-control-prev, .carousel-control-next {
-    z-index: 2; /* Ensure controls are above the carousel images */
-    position: absolute; /* Make sure the arrows are positioned absolutely */
-    top: 50%; /* Align arrows vertically in the center */
-     transform: translateY(5%) translateX(25%); /*Center arrows vertically */
+    z-index: 2; 
+    position: absolute; 
+    top: 50%; 
+     transform: translateY(5%) translateX(25%); 
  
 }
 
@@ -239,9 +239,9 @@
 
 .ourServices{
     display: flex;
-    /*justify-content: space-between;*/
+    
     gap: 20px;
-    /*align-items: stretch;*/
+   
 }
 
 .service{
@@ -514,12 +514,12 @@
 
   .prev-button-r {
     position: absolute;
-    left: -25px; /* Move left to overlap the border */
+    left: -25px; 
 }
 
 .next-button-r {
     position: absolute;
-    right: -25px; /* Move right to overlap the border */
+    right: -25px; 
 }
 
 /*
@@ -541,11 +541,11 @@
     background-image: url(BANNER.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center; /* Display the top part of the image */
-    height: 400px; /* Adjust as needed for a smaller footer height */
+    background-position: top center; 
+    height: 400px; 
     color: white;
     opacity: 0.9;
-    padding-top: 60px; /* Add padding to reveal more of the image */
+    padding-top: 60px; 
     padding-bottom: 500px;
   }
 
@@ -594,10 +594,10 @@
   .section2 {
     padding: 50px;
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
-    width: 90%; /* Adjust width as needed */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 90%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     
   }
 
